@@ -1,3 +1,7 @@
+'''
+테스트과정
+1. seoul region 기본 vpc 생성
+2. key settings bashrc region 수정
 
 #실행
 cp -r .terraform/ ../
