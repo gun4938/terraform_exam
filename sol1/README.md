@@ -41,6 +41,19 @@ aws_instance.example: Still creating... [10s elapsed]
 aws_instance.example: Still creating... [20s elapsed]
 aws_instance.example: Still creating... [30s elapsed]
 aws_instance.example: Still creating... [40s elapsed]
+aws_instance.example: Still creating... [50s elapsed]
+aws_instance.example: Still creating... [1m0s elapsed]
+aws_instance.example: Still creating... [1m10s elapsed]
+aws_instance.example: Still creating... [1m20s elapsed]
+aws_instance.example: Still creating... [1m30s elapsed]
+aws_instance.example: Still creating... [1m40s elapsed]
+aws_instance.example: Still creating... [1m50s elapsed]
+aws_instance.example: Still creating... [2m0s elapsed]
+aws_instance.example: Still creating... [2m10s elapsed]
+aws_instance.example: Still creating... [2m20s elapsed]
+aws_instance.example: Still creating... [2m30s elapsed]
+aws_instance.example: Still creating... [2m40s elapsed]
+aws_instance.example: Still creating... [2m50s elapsed]
 aws_instance.example: Provisioning with 'file'...
 aws_instance.example: Provisioning with 'remote-exec'...
 aws_instance.example (remote-exec): Connecting to remote host via SSH...
@@ -463,13 +476,14 @@ exam2 $ td
 terraform destroy -auto-approve
 
 aws_key_pair.mykey: Refreshing state... [id=mykey]
-aws_instance.example: Refreshing state... [id=i-0528307b3bf0d5cdc]
-aws_instance.example: Destroying... [id=i-0528307b3bf0d5cdc]
-aws_instance.example: Still destroying... [id=i-0528307b3bf0d5cdc, 10s elapsed]
-aws_instance.example: Still destroying... [id=i-0528307b3bf0d5cdc, 20s elapsed]
-aws_instance.example: Destruction complete after 26s
+aws_instance.example: Refreshing state... [id=i-034beba386609a3b2]
+aws_instance.example: Destroying... [id=i-034beba386609a3b2]
+aws_instance.example: Still destroying... [id=i-034beba386609a3b2, 10s elapsed]
+aws_instance.example: Still destroying... [id=i-034beba386609a3b2, 20s elapsed]
+aws_instance.example: Still destroying... [id=i-034beba386609a3b2, 30s elapsed]
+aws_instance.example: Destruction complete after 30s
 aws_key_pair.mykey: Destroying... [id=mykey]
-aws_key_pair.mykey: Destruction complete after 2s
+aws_key_pair.mykey: Destruction complete after 0s
 
 Destroy complete! Resources: 2 destroyed.
 
