@@ -1,3 +1,6 @@
+# 1. instance variable 4개로 수정
+# 2. 설치 스크립트 추가
+
 #실행
 #exam2_Q2 $ cp -r .terraform/ ../
 #exam2_Q2 $ ta
